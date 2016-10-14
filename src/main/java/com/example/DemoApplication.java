@@ -12,9 +12,9 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
-	
-    @RequestMapping(value = "/")
-    String hello() {
-        return "Hello World!";
-    }
+
+	@RequestMapping(value = "/")
+	String hello() {
+		return "Hello World!";
+	}
 }
