@@ -15,6 +15,10 @@ public class DemoApplication {
 
 	@RequestMapping(value = "/")
 	String hello() {
+<<<<<<< HEAD
+		return "Hello <br /> World!";
+=======
 		return "Hello World! Test";
+>>>>>>> refs/remotes/origin/master
 	}
 }
